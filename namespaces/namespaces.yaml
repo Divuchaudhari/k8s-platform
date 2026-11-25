@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: team-a-dev
+  labels:
+    team: team-a
+    environment: dev
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: team-a-prod
+  labels:
+    team: team-a
+    environment: prod
